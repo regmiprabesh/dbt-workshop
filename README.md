@@ -1,4 +1,4 @@
-Welcome to your DBT(Data Build Tool) Workshop!
+Welcome to your DBT(Data Build Tool) Workshop! This repository contains the project that you will be making throughout the process below.
 
 ### Prerequisties
 - Python
