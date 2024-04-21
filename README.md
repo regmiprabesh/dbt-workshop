@@ -1,5 +1,9 @@
 Welcome to your DBT(Data Build Tool) Workshop! This repository contains the project that you will be making throughout the process below.
 
+You can clone the repository using the command 
+
+> git clone https://github.com/regmiprabesh/dbt-workshop.git
+
 ### Prerequisties
 - Python
 - Snowflake Trial Account
