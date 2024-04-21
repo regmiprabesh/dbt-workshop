@@ -1,0 +1,20 @@
+sources:
+  - name: default
+    database: DBT_WORKSHOP
+    schema: L1_DEFAULT
+    freshness:
+      warn_after: {count: 20, period: day}
+      error_after: {count: 20, period: day}
+    loaded_at_field: updated_at
+    tables:
+      - name: cust
+        description: This is customer table
+        identifier: customers
+      - name: ordr
+        identifier: orders
+      - name: ordritms
+        identifier: orderitems
+      - name: sales_nepal
+        identifier: sales_nepal
+      - name: sales_india
+        identifier: sales_india  
